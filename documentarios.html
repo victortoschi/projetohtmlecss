@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagens/logo.jpg" alt="Logo do Site">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="series.html">Séries</a></li>
+                <li><a href="filmes.html">Filmes</a></li>
+                <li><a href="#">Documentários</a></li>
+            </ul>
+        </nav>
+   
+        <div class="search-bar">
+            <input type="text" placeholder="Pesquisar">
+            <button type="submit">Buscar</button>
+        </div>
+        
+        <div class="user-login">
+            <a class="login-button" href="login.html">Entrar</a>
+        </div>
+    </header>
+    <main>
+       
+        <section class="destaques">
+            <h2>Documentários</h2>
+            <div class="carrossel">
+                <div class="slide">
+                    <img src="imagens/Documentários/DOCUMENTARIO 1.jpeg" alt="Slide 1">
+                    <h3>Senna</h3>
+                </div>
+                <div class="slide">       
+                    <img src="imagens/Documentários/DOCUMENTARIO 2.jpg" alt="Slide 2">
+                    <h3>A 13ª Emenda</h3>
+                </div>
+                <div class="slide">
+                    <img src="imagens/Documentários/DOCUMENTARIO 3.jpg" alt="Slide 3">
+                    <h3>Filho da Mãe</h3>
+                </div>
+                <div class="slide">
+                    <img src="imagens/Documentários/DOCUMENTARIO 4.jpg" alt="Slide 4">
+                    <h3>Privacidade Hackeada</h3>
+                </div>
+                <div class="slide">
+                    <img src="imagens/Documentários/DOCUMENTARIO 5.jpg" alt="Slide 5">
+                    <h3>A Rede Antissocial</h3>
+                </div>
+                <div class="slide">
+                    <img src="imagens/Documentários/DOCUMENTARIO 6.jpg" alt="Slide 6">
+                    <h3>Einstein e a bomba</h3>
+                </div>
+        </section>
+                </div>
+        </ul>
+    </main> 
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#" target="_blank">
+                <img src="imagens/icon-facebook.png" alt="facebook">
+            </a>
+            <a href="#" target="_blank">
+                <img src="imagens/icon-instagram.png" alt="Instagram">
+            </a>
+            <a href="#" target="_blank">
+                <img src="imagens/icon-twitter.png" alt="Twitter">
+            </a>
+            <a href="#" target="_blank">
+                <img src="imagens/icon-youtube.png" alt="youtube">
+            </a>
+        </div>
+    <section class="section-footer">
+        <div class="footer-text-box">
+            <div class="footer-links-primeira">
+                <ul>
+                    <li><a href="#">Entre em contato</a></li>
+                    <li><a href="#">Centro de ajuda</a></li>
+                </ul>
+            </div>
+            <div class="footer-links-segunda">                    
+                <ul>
+                  <li><a href="#">Preferências de cookies</a></li>
+                  <li><a href="#">Avisos legais</a></li>  
+                </ul>
+            </div>
+            <div class="footer-links-terceira">                    
+                <ul>
+                  <li><a href="#">Termos de uso</a></li>
+                  <li><a href="#">Privacidade</a></li>
+                </ul>
+            </div> 
+        </div>
+            <div class="footer-copyright">
+                <p>&copy; 2024 EstacioFlix, Inc.</p>
+            </div>
+    </section>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.carrossel').slick({
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                prevArrow: $('.carousel-prev'),
+                nextArrow: $('.carousel-next'),
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+</body>
+</html>
