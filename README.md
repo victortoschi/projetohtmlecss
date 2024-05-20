@@ -1,5 +1,7 @@
 # Projeto-HTML-CSS
-É o projeto feito para trabalho avaliativo da matéria de HTML, CSS, JAVASCRIPT E PHP. Professor: 
+É o projeto feito para trabalho avaliativo da matéria de DESENV. WEB EM HTML5, CSS, JAVASCRIPT E PHP. Professor: THIER ROBERTO ZARSA ALARCON DE OLIVEIRA
+
+Grupo 3
 Alunos: 
 1 - Victor Patrício de Oliveira Toschi / 202308499319 / Sexta 19:00 
 2 - Camila Boff Candido /  202308239201 / Sexta 19:00
