@@ -1,5 +1,5 @@
 # Projeto-HTML-CSS
-<img src="octocat-1716431523633.png/" alt="Logo Estácio">
+<img src="logoestacio.png/" alt="Logo Estácio">
 É o projeto feito para trabalho avaliativo da matéria de DESENV. WEB EM HTML5, CSS, JAVASCRIPT E PHP. Professor: THIER ROBERTO ZARSA ALARCON DE OLIVEIRA
 
 Grupo 3
