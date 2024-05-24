@@ -108,6 +108,7 @@ nav ul li a {
     padding: 12px; 
     border: none;
     cursor: pointer;
+    background-color: #c696d9;
 }
 
 .login-container p {
